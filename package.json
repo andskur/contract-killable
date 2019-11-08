@@ -1,0 +1,32 @@
+{
+  "name": "erc721-killable",
+  "version": "0.0.1",
+  "description": "Ethereum smart-contract with option for kill it by the Owner or make it immortal if need later",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andskur/erc721-killable.git"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "erc721",
+    "nft",
+    "killable"
+  ],
+  "author": "Andrey Skurlatov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andskur/erc721-killable/issues"
+  },
+  "homepage": "https://github.com/andskur/erc721-killable#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0"
+  }
+}
