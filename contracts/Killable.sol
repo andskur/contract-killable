@@ -4,13 +4,13 @@ import "@openzeppelin/contracts/ownership/Ownable.sol";
 
 // TODO: write comments
 
-contract Killable is Ownable{
+contract Killable is Ownable {
   bool private _immortal;
 
   event Immortality(bool immortal);
 
-  constructor() internal Ownable() {
-    _immortal = false;
+  constructor() public Ownable() {
+
   }
 
   modifier onlyMortal() {
