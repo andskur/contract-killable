@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/andskur/contract-killable#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^2.4.0",
+    "@openzeppelin/contracts": "^4.4.2",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1"
   }
